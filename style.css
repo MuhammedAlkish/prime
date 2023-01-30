@@ -1,0 +1,289 @@
+img{
+    max-width: 100%;
+}
+.nav-link.active {}
+
+.nav-link {
+    font-size: 14px;
+}
+
+.nav-link {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.nav-link {
+    padding: 10px;
+}
+
+.nav-link a:hover {
+    background-color: #red;
+}
+
+.nav-link:hover {
+    background-color: #9D1E13;
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+@media (min-width:768px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    .same {
+        height: 92;
+        padding-right: 16px;
+        padding-left: 16px;
+        width: 100%;
+        border-right: 0.5px solid rgb(255, 255, 255);
+        /*border-bottom: 0.5px solid rgb(255,255,255);*/
+        padding-bottom: 5px;
+    }
+}
+
+@media (max-width: 991px) {
+    .same {
+        height: 92;
+        padding-right: 16px;
+        padding-left: 16px;
+        width: 100%;
+        border-right: 0.5px none rgb(255, 255, 255);
+        border-bottom: 0.5px solid rgb(255, 255, 255);
+        padding-bottom: 5px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+    .col.flex-grow-1 {
+        border-radius: 15px;
+        "><img src="speedometer (1).svg" style="width: 56px;
+        margin-right: 10px;
+        margin-left: 10px;
+        " /> <h1 style="font-family: Montserrat, sans-serif;
+        font-size: 32px;
+        line-height: 32px;
+        background: #9D1E13;
+        border: 2px none #212529;
+        height: 156px;
+        /*max-height: 122px;*/
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .col.flex-grow-1 {
+        border-radius: 15px;
+        "><img src="speedometer (1).svg" style="width: 56px;
+        margin-right: 10px;
+        margin-left: 10px;
+        " /> <h1 style="font-family: Montserrat, sans-serif;
+        font-size: 32px;
+        line-height: 32px;
+        background: #9D1E13;
+        border: 2px none #212529;
+        height: 152px;
+        max-height: 320px;
+    }
+}
+
+@media (min-width: 993px) {
+    .col.flex-grow-1 {
+        border-radius: 15px;
+        "><img src="speedometer (1).svg" style="width: 56px;
+        margin-right: 10px;
+        margin-left: 10px;
+        " /> <h1 style="font-family: Montserrat, sans-serif;
+        font-size: 32px;
+        line-height: 32px;
+        background: #9D1E13;
+        border: 2px none #212529;
+        height: 132px;
+        max-height: 320px;
+    }
+}
+
+.highligted-table-heading {
+    font-family: 'Michroma';
+    border-right: 0.5px solid #d7d7d7;
+}
+
+.description-table-heading {
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    font-size: 18px;
+    color: #747474;
+}
+
+.table-responsive {
+    display: inline-block;
+    width: 100%;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table td,
+.table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    /*border-right: 0.5px solid #d7d7d7;*/
+}
+
+.nav-link {
+    font-family: 'Michroma';
+    font-size: 14px;
+    color: #000;
+}
+
+.nav-link.active {
+    background-color: #9D1E13;
+    color: #fff;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #ffffff;
+    background-color: #9D1E13;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.tab-parapgraph {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    text-align: initial;
+}
+
+.Region-table {
+    border-right: 1px solid #d7d7d7;
+}
+
+.footer-category-font {
+    font-family: 'Michroma';
+    font-size: 14px;
+}
+
+.footer-content-div {}
+
+.nav-link.rounded-corner:hover {
+    border-radius: 0px 25px 25px 0px;
+}
+
+.nav-link.other-rounded-corner:hover {
+    border-radius: 25px 0px 0px 25px;
+}
+
+@media (min-width: 993px) {
+    #condition-div {
+        width: 30%;
+    }
+}
+
+@media (max-width: 992px) {
+    #condition-div {
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container.footer-container {
+        padding-top: 68px;
+        background: url("../../assets/img/flames-04.jpg") bottom / cover repeat-x, #000000;
+        border-radius: 25px;
+        /*height: 325px;*/
+        margin-top: 75px;
+    }
+}
+
+@media (min-width: 577px) {
+    .container.footer-container {
+        padding-top: 24px;
+        background: url("../../assets/img/flames-04.jpg") bottom / cover repeat-x, #000000;
+        border-radius: 25px;
+        height: 325px;
+        margin-top: 75px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-contact-div {
+        padding-bottom: 15px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 577px) {
+    .footer-contact-div {
+        padding-bottom: 15px;
+        width: 33%;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-contact-div {
+        padding-bottom: 15px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-contact-div {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+}
+
+
+
+section.tab-section {
+    display: none;
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.tab-area input {
+    display: none;
+}
+
+.tab-area label {
+    border: 0;
+    display: inline-block;
+    padding: 7px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: transparent;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Michroma';
+    font-size: 12px;
+}
+
+.tab-area label:hover {
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #9D1E13;
+    background-color: #9D1E13;
+}
+
+.tab-area input:checked + label {
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #9D1E13;
+    background-color: #9D1E13;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5,
+#tab6:checked ~ #content6 {
+    display: block;
+}
